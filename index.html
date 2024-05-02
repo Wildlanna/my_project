@@ -31,6 +31,8 @@
       padding: 10px;
       background-color:rgb(178, 149, 206);
       color: rgb(238, 234, 234);
+      font-size: 14px;
+      text-transform: uppercase;
      }
   </style>
 </head>
@@ -46,7 +48,29 @@
     adipisci at perferendis quaerat ipsum rem ullam alias! Lorem ipsum dolor sit amet consectetur,
     adipisicing elit. Id quaerat quibusdam similique! Corrupti id animi nostrum nemo quia impedit, error
     veritatis at non quibusdam ratione, ad, magni quam ullam vero.</p>
-    <button>Click me</button>
+    <button id="Clickbutton" onclick="clap ()">Click me</button>
+    <h2 id="ClicksCounter">0</h2>
+    <h3 id = "ClicksDescription">BOOOOM!</h3>
 </body>
+<script>
+  var NumberOfClicks = 0
+  function clap (){
+    NumberOfClicks = NumberOfClicks + 1
+    document.getElementById("ClicksCounter").textContent = NumberOfClicks
+    if (NumberOfClicks == 10) {
+      document.getElementById ("ClicksDescription").textContent = "THAT IS ENOUGH!"
+    }
+    if (NumberOfClicks == 15) {
+      document.getElementById("ClicksDescription").textContent = "I AM SERIOUS!" 
+    }
+    if (NumberOfClicks == 17) {
+      document.getElementById("ClicksDescription").textContent = "STOP IT!"
+    }  
+    if (NumberOfClicks == 20) {
+      document.getElementById("ClicksDescription").textContent = "as you wish... YOU ARE LIKE A KID!"
+    } 
+    console.log("Klikol som")
+    }
+</script>
 
 </html>
