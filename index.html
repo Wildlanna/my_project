@@ -1,17 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, inicial-scale=1.0">
-  <title>Portfolio</title>
+  <title>HTML, CSS a JS</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap">
   <style>
     body {
       background-color: #f0f0f0;
       /* Svetlosivá farba pozadia */
+      text-align: center;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
-    h2
+    h1
     {
       font-family:"Bellefair";
       color:rgb(134, 100, 168);
@@ -29,7 +31,7 @@
       color: rgb(79, 42, 116);
       font-style: oblique;
     }
-    h2,h3 {
+    h1,h3 {
       text-align: center;
       font-style: oblique;
     }
@@ -50,27 +52,56 @@
      img{
       width: 130px;
      }
+     strong{
+      color: rebeccapurple;
+     }
+     article{
+      border: 1px solid #000000;
+      margin: 50px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 150px;
+      max-width: 600px;
+      padding-top:5%;
+
+     }
   </style>
 </head>
 
 <body>
-  <h2>How I learned Html, Css and JavaScript in VSC</h2>
+
+  <article>
+
+  <h1>How I learned Html, Css and JavaScript in VSC</h1>
   <h3>My Portfolio</h3>
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFDrSTybBeG1Vnlge291vZT62gQalbldPKOQ&s" alt="Ikony HTML,CSS a JS">
-  <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique rerum ex eos itaque suscipit
+ 
+  <p> 
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique rerum ex eos itaque suscipit
     labore aut! Lorem, ipsum dolor sit amet consectetur adipisicing elit. A neque error repellat laborum
-    asperiores numquam totam accusantium ea harum consequatur. Accusantium veniam totam obcaecati consequuntur
-    error modi quo suscipit aperiam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim magni
-    pariatur iste doloremque illo, voluptate a voluptatum vel aperiam aliquid distinctio optio,
+    asperiores numquam totam accusantium ea <strong> harum consequatur.</strong> Accusantium veniam totam obcaecati consequuntur
+    error modi quo suscipit aperiam. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+   </p>
+<h5>CONTINUE...</h5>
+
+  <p> 
+      Enim magni pariatur iste  <STRong>doloremque illo, voluptate</STRong> a voluptatum vel aperiam aliquid distinctio optio,
     adipisci at perferendis quaerat ipsum rem ullam alias! Lorem ipsum dolor sit amet consectetur,
-    adipisicing elit. Id quaerat quibusdam similique! Corrupti id animi nostrum nemo quia impedit, error
+    adipisicing elit. Id quaerat quibusdam similique!  <em>Corrupti id animi nostrum</em> nemo quia impedit, error
     veritatis at non quibusdam ratione, ad, magni quam ullam vero.
-  And how i create to a good habits?</p> 
+  And how i create to a good habits?
+  </p> 
+
+
+
   <a href="https://www.martinus.sk/634267-atomove-navyky/785001" target="_blank"><h4>I recommend this book</h4></a>
     <button id="Clickbutton" onclick="clap ()">Click me</button>
-    <h2 id="ClicksCounter">0</h2>
+    <h1 id="ClicksCounter">0</h1>
     <h3 id = "ClicksDescription">BOOOOM!</h3>
+
+</article>
 </body>
+
 <script>
   var NumberOfClicks = 0
   function clap (){
