@@ -35,20 +35,8 @@
       text-align: center;
       font-style: oblique;
     }
-    button{
-      padding: 10px;
-      background-color:rgb(130, 198, 130);
-      color: rgb(238, 234, 234);
-      font-size: 14px;
-      text-transform: uppercase;
-      border: none;
-      font-weight: 600;
-     }
-     button:hover,
-     button:active {
-      background-color: rgb(83, 183, 106);
-      cursor:pointer;
-     }
+   
+  
     img {
       width: 110px;
       border-radius:50px;
@@ -191,9 +179,7 @@
 
 
   <a href="https://www.martinus.sk/634267-atomove-navyky/785001" target="_blank"><h4>I recommend this book</h4></a>
-    <button id="Clickbutton" onclick="clap ()">Click me</button>
-    <h1 id="ClicksCounter">0</h1>
-    <h3 id = "ClicksDescription">BOOOOM!</h3>
+
     <footer>
 
 
@@ -203,24 +189,7 @@
 </body>
 
 <script>
-  var NumberOfClicks = 0
-  function clap (){
-    NumberOfClicks = NumberOfClicks + 1
-    document.getElementById("ClicksCounter").textContent = NumberOfClicks
-    if (NumberOfClicks == 10) {
-      document.getElementById ("ClicksDescription").textContent = "THAT IS ENOUGH!"
-    }
-    if (NumberOfClicks == 15) {
-      document.getElementById("ClicksDescription").textContent = "I AM SERIOUS!" 
-    }
-    if (NumberOfClicks == 17) {
-      document.getElementById("ClicksDescription").textContent = "STOP IT!"
-    }  
-    if (NumberOfClicks == 20) {
-      document.getElementById("ClicksDescription").textContent = "as you wish... YOU ARE LIKE A KID!"
-    } 
-    console.log("Klikol som")
-    }
+
 
 </script>
 
