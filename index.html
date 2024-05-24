@@ -9,7 +9,7 @@
   <style>
     body {
       background-color:#e8f3eb;
-      /* Svetlosivá farba pozadia */
+      /* Svetlozelena farba pozadia */
       text-align:center;
       font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
@@ -26,11 +26,14 @@
       font-weight: 300;
       color: rgb(53, 116, 42);
     }
-    h4{
-      font-weight: 300;
+
+    h4 {
+      font-weight: 100;
       color: rgb(42, 116, 70);
       font-style: oblique;
+      text-align: center;
     }
+
     h1,h3 {
       text-align: center;
       font-style: oblique;
@@ -43,24 +46,30 @@
       border: 3px solid rgb(55, 86, 62);
       margin:5%;
      }
-     strong{
+     strong {
       color: rgb(39, 151, 67);
      }
+
+
+     /*okraje stranky */
      article{
       border: 1px solid #000000;
       margin: 50px;
       margin-left: auto;
       margin-right: auto;
-      padding: 150px;
+      padding: 100px;
       max-width: 600px;
       padding-top:5%;
 
      }
+
+     /*okraje ikoniek */
      a:hover img,
      a:active img {
       border-color:rgb(0, 0, 0);
 
      }
+     /* vlastnosti ikoniek - obrazkov na stranke */
      img.AI_abstractcolorful {
       width: 100px;
       height: 100px;
@@ -72,12 +81,16 @@
       height: 100px;
       position: relative;
       display: inline-block;
+      
      }
 
      .image_container {
       position: relative;
       display: inline-block;
+    
      }
+
+     /* text v ikonach - obrazkoch */
 
      .overlay-text{
       position: absolute;
@@ -88,6 +101,7 @@
       font-size: 17px;
       font-weight: bolder;
       text-transform: uppercase;
+      
       
     
     }
@@ -101,6 +115,7 @@
       font-size: 17px;
       font-weight: bolder;
       text-transform: uppercase;
+      
 
     }
     
@@ -113,6 +128,7 @@
       font-size: 17px;
       font-weight: bolder;
       text-transform: uppercase;
+     
       
     }
   
@@ -127,7 +143,17 @@
      img.AI_dejavu {
       width: 100px;
       height: 100px;
+      
      }
+      li {
+        text-align: right;
+        font-size: smaller;
+        position: relative;
+        bottom:50%;
+        right: -10%;
+
+        
+      }
 
   </style>
 </head>
@@ -140,51 +166,40 @@
 
   <h1>How I learned Html, Css and JavaScript in VSC</h1>
   <h3>My Portfolio</h3>
-  <div class="image_container">
-  <a href="./javascript.html">
-  <img class= AI_abstract src="./images/pixlr-image-generator-687a0a2b-77db-4cff-ad58-ace949e81edb.png" alt="JavaScript_prva">
-     <div class="overlay-text">COUTNER</div>
-  </a>
-  </div>
-  <div class="image_container">
-   <a href="./javascript.html">
-  <img class="AI_abstractcolorful" src="./images/pixlr-image-generator-77ec6012-0954-4608-b116-4dd4f49325db.png" alt="JavaScript_druha">
-<div class="overlay-text-1">TEXT</div>
-</div>
-
-</a>
-<div class="image_container">
-  <a href="./javascript.html">
-    <img class="AI_dejavu" src="./images/pixlr-image-generator-90095368-3bc5-4a4c-aa4b-d3820b32b9a5.png" alt="JavaScript_tretia">
- <div class="overlay_text_2">TEST</div>
-  </div>
-  </a>
+ 
 </header>
   <p> 
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique rerum ex eos itaque suscipit
-    labore aut! Lorem, ipsum dolor sit amet consectetur adipisicing elit. A neque error repellat laborum
-    asperiores numquam totam accusantium ea <strong> harum consequatur.</strong> Accusantium veniam totam obcaecati consequuntur
-    error modi quo suscipit aperiam. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+    Rada by som Vám predstavila moju stránku, na ktorej Vám ukážem pár funkcionalít v  <strong>programovacích jazykoch JavaScript a Python.</strong> 
+    Pod týmto textom sa nachádzajú ikonky, ktoré po prejdení myšou nie len pozmenia okraje ale dokážete
+    sa nimi prekliknúť na  <em>novú stránku</em>, kde Vám predvediem jednu z ukážok. 
    </p>
-<h5>CONTINUE...</h5>
+<h5>Táto stránka je stále v procese a postupne sa v nej budú objavovať nové ukážky mojej práce.</h5>
 
-  <p> 
-      Enim magni pariatur iste  <STRong>doloremque illo, voluptate</STRong> a voluptatum vel aperiam aliquid distinctio optio,
-    adipisci at perferendis quaerat ipsum rem ullam alias! Lorem ipsum dolor sit amet consectetur,
-    adipisicing elit. Id quaerat quibusdam similique!  <em>Corrupti id animi nostrum</em> nemo quia impedit, error
-    veritatis at non quibusdam ratione, ad, magni quam ullam vero.
-  And how i create to a good habits?
-  </p> 
-
-
-
-  <a href="https://www.martinus.sk/634267-atomove-navyky/785001" target="_blank"><h4>I recommend this book</h4></a>
+  <p>Ak by sa Vám niečo z toho páčilo, rada Vám ponúknem aj náhľad môjho kódu, ktorý najdete v <a href="https://github.com/Wildlanna/my_project" target="_blank">GitHube</a>.</p> 
 
     <footer>
-
+      <div class="image_container">
+        <a href="./javascript.html">
+        <img class= AI_abstract src="./images/pixlr-image-generator-687a0a2b-77db-4cff-ad58-ace949e81edb.png" alt="JavaScript_prva">
+           <div class="overlay-text">COUTNER</div>
+        </a>
+        </div>
+        <div class="image_container">
+         <a href="./javascript.html">
+        <img class="AI_abstractcolorful" src="./images/pixlr-image-generator-77ec6012-0954-4608-b116-4dd4f49325db.png" alt="JavaScript_druha">
+      <div class="overlay-text-1">TEXT</div>
+      </div>
+      
+      </a>
+      <div class="image_container">
+        <a href="./javascript.html">
+          <img class="AI_dejavu" src="./images/pixlr-image-generator-90095368-3bc5-4a4c-aa4b-d3820b32b9a5.png" alt="JavaScript_tretia">
+       <div class="overlay_text_2">TEST</div>
+        </div>
+        </a>
 
     </footer>
-
+     <li><a href="https://www.linkedin.com/in/miriama-romanova/" target="_blank">linkedin</a></li>
 </article>
 </body>
 
