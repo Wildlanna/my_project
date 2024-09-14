@@ -2,7 +2,7 @@ body {
     background-color:#e8f3eb;
     /* Svetlozelena farba pozadia */
     text-align:center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Segoe UI', Tahoma;
   }
   h1
   {
@@ -13,7 +13,7 @@ body {
   }
   h3
   {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Unicode';
     font-weight: 300;
     color: rgb(53, 116, 42);
     border-bottom: 1px solid #000000;
