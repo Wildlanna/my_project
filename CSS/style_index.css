@@ -3,6 +3,7 @@ body {
     /* Svetlozelena farba pozadia */
     text-align:center;
     font-family:'Segoe UI', Tahoma;
+    -webkit-font-smoothing: antialiased;
   }
   h1
   {
@@ -25,7 +26,7 @@ body {
     font-weight: 100;
     color: rgb(42, 116, 70);
     font-style: oblique;
-    text-align: center;
+    
   }
 
   h1,h3 {
@@ -37,7 +38,7 @@ body {
   img {
     width: 110px;
     border-radius:50px;
-    border: 3px solid rgb(55, 86, 62);
+    border: 2px solid #eee;
     margin:5%;
    }
    strong {
@@ -51,9 +52,10 @@ body {
     margin: 50px;
     margin-left: auto;
     margin-right: auto;
-    padding: 100px;
+    padding: 130px;
     max-width: 600px;
     padding-top:5%;
+    padding-bottom:1%;
 
    }
 
@@ -148,8 +150,51 @@ body {
 
       
     }
-
     p {
         line-height:26px;
+        font-size: 15px;
 
     }
+   .post_footer {
+    width: 600px;
+    margin: 60px auto;
+  }
+  .post_footer h4 {  
+    font-size: 16px;
+    text-align:center;
+    border-top: 1px solid #000000;
+    
+    
+
+  }
+  .photo {
+    float: left;
+    margin-top: 10px;
+  }
+  .photo img {
+    border-radius: 50%;
+    border: 2px solid #eee;
+  }
+
+  .byline h4, 
+  .about_me {
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 150px;
+    text-align: justify;
+
+  }
+  .global-footer {
+    color: rgba(119, 136, 119, 0.748);
+    font-size: 14px;
+    margin-right: 0%;
+    padding: 15px 10px;
+
+  }
+  .linkedin {
+    color: rgba(119, 136, 119, 0.748);
+    text-decoration: none;
+  }
+  
+  
+    
