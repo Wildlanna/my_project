@@ -41,8 +41,15 @@ body {
     border: 2px solid #eee;
     margin:5%;
    }
-   strong {
+   strong a {
     color: rgb(39, 151, 67);
+    
+   }
+   
+   a {
+    text-decoration: none;
+    color: #339e3ae1;
+    font-style: oblique;
    }
 
 
@@ -194,6 +201,7 @@ body {
   .linkedin {
     color: rgba(119, 136, 119, 0.748);
     text-decoration: none;
+    font-size: normal;
   }
   
   
